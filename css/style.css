@@ -1,7 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif;
-    color: #212121;
-    
+    color: var(--secondary-titles);
+    font-weight: 400;
+    font-style: normal;
 }
 
 :root{
@@ -17,6 +18,7 @@ body{
     font-weight: bold;
     font-size: 26px;
     text-decoration: none;
+    line-height: 1.2;
 }
 .logo2 {
     color: #000000;
@@ -34,6 +36,7 @@ body{
     color: var(--secondary-titles);
     font-size: 14px;
     font-weight:500;
+    line-height: 1.14;
 }
 .social-link {
     text-decoration: none;
@@ -41,6 +44,7 @@ body{
     font-size: 14px;
     font-weight: 500;
     font-style: normal;
+    line-height: 1.14;
 }
 ul {
     list-style-type: none;
@@ -60,6 +64,8 @@ ul {
     background-color: var(--team-back);
     border: none;
     border-radius: 4px;
+    cursor: pointer;
+    line-height: 1.87;
 }
 .button:hover {
     background-color: var(--link-color);
@@ -74,7 +80,7 @@ ul {
 .group-details {
     color: var(--descriptive-text);
     font-size: 14px;
-    font-weight: 400;
+    line-height: 1.71;
 }
 .section-title {
     text-align: center;
@@ -90,12 +96,14 @@ ul {
     font-size: 16px;
     text-align: center;
     font-weight: 500;
+    line-height: 1.18;
 }
 .team-job {
     color: var(--descriptive-text);
     font-size: 16px;
     font-weight: 500;
     text-align: center;
+    line-height: 1.18;
 }
 .button-portfolio {
     background-color: var(--team-back);
@@ -105,6 +113,7 @@ ul {
     font-weight: 500;
     border-radius: 4px;
     height: 26px;
+    cursor: pointer;
 }
 .button-portfolio:hover {
     background-color: var(--link-color);
@@ -114,12 +123,13 @@ ul {
     color: var(--secondary-titles);
     font-size: 18px;
     font-weight: bold;
+    line-height: 2;
 }
 
 .tips-of-project {
     color: var(--descriptive-text);
     font-size: 16px;
-    font-weight: 400;
+    line-height: 1.87;
 }
 
 .footer-zone {
@@ -129,13 +139,12 @@ ul {
 .location {
     color: var(--color-white);
     font-size: 14px;
-    font-weight: 400;
     font-style: normal;
-
 }
 
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
     color: var(--link-color);
 }
 .main-nav:hover {
