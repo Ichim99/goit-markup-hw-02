@@ -38,6 +38,13 @@ body{
     font-weight:500;
     line-height: 1.14;
 }
+.main-nav:hover,
+.main-nav:focus {
+    color: var(--link-color);
+}
+.main-nav:active {
+    color: var(--link-color);
+}
 .social-link {
     text-decoration: none;
     color: var(--descriptive-text);
@@ -61,20 +68,25 @@ ul {
     font-size: 16px;
     height: 30px;
     font-weight: bold;
-    background-color: var(--team-back);
+    color: var(--color-white);
+    background-color: var(--link-color);
     border: none;
     border-radius: 4px;
     cursor: pointer;
     line-height: 1.87;
 }
-.button:hover {
-    background-color: var(--link-color);
+.button:hover,
+.button:focus {
+    background-color: #188CE8;
     color: var(--color-white);
 }
 .group-title {
     color: var(--secondary-titles);
     font-size: 14px;
     font-weight: bold;
+}
+
+#current {color: var(--link-color);
 }
 
 .group-details {
@@ -119,6 +131,15 @@ ul {
     background-color: var(--link-color);
     color: var(--color-white);
 }
+.button-portfolio:focus {
+    background-color: var(--link-color);
+    color: var(--color-white);
+}
+.button-portfolio:active {
+    background-color: var(--link-color);
+    color: var(--color-white);
+}
+
 .portofolio-project {
     color: var(--secondary-titles);
     font-size: 18px;
@@ -147,6 +168,4 @@ ul {
 .social-link:focus {
     color: var(--link-color);
 }
-.main-nav:hover {
-    color: var(--link-color);
-}
+
